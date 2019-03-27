@@ -74,7 +74,7 @@ void draw() {
   //light
   strokeWeight(10);
   stroke(255,0,0);
-  lineDistance=(lineDistance-2)%160;
+  lineDistance=(lineDistance-2)%185;
   line(lineX1,robotY+37,lineX2,robotY+37);
   lineX1=min(lineX,lineX+lineDistance);
   lineX2=min(lineX,lineX1+30);
