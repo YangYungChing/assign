@@ -77,6 +77,6 @@ void draw() {
   lineDistance=(lineDistance-2)%160;
   line(lineX1,robotY+37,lineX2,robotY+37);
   lineX1=min(lineX,lineX+lineDistance);
-  lineX2=min(lineX,lineX1+40);
+  lineX2=min(lineX,lineX1+30);
   
 }
